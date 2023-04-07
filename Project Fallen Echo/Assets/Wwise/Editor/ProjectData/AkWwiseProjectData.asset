@@ -1,0 +1,789 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b0be759d2f6224bb71d09564313f09, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 85bc47438c1cf5449d3880d9ad9d03a4
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 85bc47438c1cf5449d3880d9ad9d03a4
+    GuidInternal: 
+    m_lastTime: -8585212932221714460
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 47e1f875d036d849b48a9b5fb5827d95
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 47e1f875d036d849b48a9b5fb5827d95
+    GuidInternal: 
+    m_lastTime: -8585210630409060484
+    List:
+    - name: AAA Main bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 2266108221
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 47e1f875d036d849b48a9b5fb5827d95
+      - ElementName: AAA Main bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\AAA Main bus
+    - name: Music bus
+      guid: 62b29dfbf9085a4db0581f1f69c4fa76
+      id: 3127962312
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 47e1f875d036d849b48a9b5fb5827d95
+      - ElementName: Music bus
+        ObjectType: 2
+        guid: 62b29dfbf9085a4db0581f1f69c4fa76
+      Path: Master-Mixer Hierarchy\Default Work Unit\Music bus
+    - name: Scene ambience bus
+      guid: 3bbf7c066a33c6468e432fae9d6e453d
+      id: 3960432351
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 47e1f875d036d849b48a9b5fb5827d95
+      - ElementName: Scene ambience bus
+        ObjectType: 2
+        guid: 3bbf7c066a33c6468e432fae9d6e453d
+      Path: Master-Mixer Hierarchy\Default Work Unit\Scene ambience bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9fd10a6308287d4aa090eb9c2cf2fab2
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 9fd10a6308287d4aa090eb9c2cf2fab2
+    GuidInternal: 
+    m_lastTime: -8585212932221764425
+    List:
+    - name: Main
+      guid: 1bae18d53646914c989a9a4700280602
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fd10a6308287d4aa090eb9c2cf2fab2
+      - ElementName: Main
+        ObjectType: 7
+        guid: 1bae18d53646914c989a9a4700280602
+      Path: SoundBanks\Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: cd75506b24b5a049a8b8bec218bb8454
+    ParentPath: Events\Default Work Unit
+    guid: cd75506b24b5a049a8b8bec218bb8454
+    GuidInternal: 
+    m_lastTime: -8585210640915013576
+    List:
+    - name: Ambiences events
+      guid: d998ab6d5feddf4c9be73d58bf20c716
+      id: 3690949859
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Ambiences events
+        ObjectType: 4
+        guid: d998ab6d5feddf4c9be73d58bf20c716
+      Path: Events\Default Work Unit\Ambiences events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Enemy type events
+      guid: ea3cc3a8dd39564e8258d387bd929a53
+      id: 918797812
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Enemy type events
+        ObjectType: 4
+        guid: ea3cc3a8dd39564e8258d387bd929a53
+      Path: Events\Default Work Unit\Enemy type events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ext_attack
+      guid: 1400c3047b5f8e4fa88b170414de53fe
+      id: 2818127829
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Enemy type events
+        ObjectType: 4
+        guid: ea3cc3a8dd39564e8258d387bd929a53
+      - ElementName: Exterminator events
+        ObjectType: 4
+        guid: 2a4c7ecc3c4624419cde5b065407f93f
+      - ElementName: ext_attack
+        ObjectType: 3
+        guid: 1400c3047b5f8e4fa88b170414de53fe
+      Path: Events\Default Work Unit\Enemy type events\Exterminator events\ext_attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ext_damage
+      guid: 1450e8c4023943428824dc44bd30e427
+      id: 4113054722
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Enemy type events
+        ObjectType: 4
+        guid: ea3cc3a8dd39564e8258d387bd929a53
+      - ElementName: Exterminator events
+        ObjectType: 4
+        guid: 2a4c7ecc3c4624419cde5b065407f93f
+      - ElementName: ext_damage
+        ObjectType: 3
+        guid: 1450e8c4023943428824dc44bd30e427
+      Path: Events\Default Work Unit\Enemy type events\Exterminator events\ext_damage
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ext_death
+      guid: b23078a2ab966e489b07cfb79f364e05
+      id: 3767764329
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Enemy type events
+        ObjectType: 4
+        guid: ea3cc3a8dd39564e8258d387bd929a53
+      - ElementName: Exterminator events
+        ObjectType: 4
+        guid: 2a4c7ecc3c4624419cde5b065407f93f
+      - ElementName: ext_death
+        ObjectType: 3
+        guid: b23078a2ab966e489b07cfb79f364e05
+      Path: Events\Default Work Unit\Enemy type events\Exterminator events\ext_death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ext_teleport
+      guid: 48cfda1970fd3945a2cc92d0de6cb075
+      id: 1629797184
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Enemy type events
+        ObjectType: 4
+        guid: ea3cc3a8dd39564e8258d387bd929a53
+      - ElementName: Exterminator events
+        ObjectType: 4
+        guid: 2a4c7ecc3c4624419cde5b065407f93f
+      - ElementName: ext_teleport
+        ObjectType: 3
+        guid: 48cfda1970fd3945a2cc92d0de6cb075
+      Path: Events\Default Work Unit\Enemy type events\Exterminator events\ext_teleport
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Exterminator events
+      guid: 2a4c7ecc3c4624419cde5b065407f93f
+      id: 1476272708
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Enemy type events
+        ObjectType: 4
+        guid: ea3cc3a8dd39564e8258d387bd929a53
+      - ElementName: Exterminator events
+        ObjectType: 4
+        guid: 2a4c7ecc3c4624419cde5b065407f93f
+      Path: Events\Default Work Unit\Enemy type events\Exterminator events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Ghoul events
+      guid: 06463a69a6a86847b49e2494919d97b0
+      id: 3573502335
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Enemy type events
+        ObjectType: 4
+        guid: ea3cc3a8dd39564e8258d387bd929a53
+      - ElementName: Ghoul events
+        ObjectType: 4
+        guid: 06463a69a6a86847b49e2494919d97b0
+      Path: Events\Default Work Unit\Enemy type events\Ghoul events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ghoul_damage
+      guid: 03bd7710707afc4ea57d9c71f67e8f18
+      id: 2635435004
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Enemy type events
+        ObjectType: 4
+        guid: ea3cc3a8dd39564e8258d387bd929a53
+      - ElementName: Ghoul events
+        ObjectType: 4
+        guid: 06463a69a6a86847b49e2494919d97b0
+      - ElementName: ghoul_damage
+        ObjectType: 3
+        guid: 03bd7710707afc4ea57d9c71f67e8f18
+      Path: Events\Default Work Unit\Enemy type events\Ghoul events\ghoul_damage
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ghoul_death
+      guid: 904c84bd411b414f9520c38a601c985d
+      id: 3722504395
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Enemy type events
+        ObjectType: 4
+        guid: ea3cc3a8dd39564e8258d387bd929a53
+      - ElementName: Ghoul events
+        ObjectType: 4
+        guid: 06463a69a6a86847b49e2494919d97b0
+      - ElementName: ghoul_death
+        ObjectType: 3
+        guid: 904c84bd411b414f9520c38a601c985d
+      Path: Events\Default Work Unit\Enemy type events\Ghoul events\ghoul_death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level 1 ambience
+      guid: 4ad64c95021c2b4e8857ce7040f5a005
+      id: 4106157444
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Ambiences events
+        ObjectType: 4
+        guid: d998ab6d5feddf4c9be73d58bf20c716
+      - ElementName: Level 1 ambience
+        ObjectType: 4
+        guid: 4ad64c95021c2b4e8857ce7040f5a005
+      Path: Events\Default Work Unit\Ambiences events\Level 1 ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Main menu events
+      guid: 7e31da79eda07d4599190d554a979240
+      id: 2970348742
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Main menu events
+        ObjectType: 4
+        guid: 7e31da79eda07d4599190d554a979240
+      Path: Events\Default Work Unit\Main menu events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Fallen_echo_main_music_theme
+      guid: 0316ef8b813c0a40bc9c9bcc0d3b7642
+      id: 1782151754
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Main menu events
+        ObjectType: 4
+        guid: 7e31da79eda07d4599190d554a979240
+      - ElementName: Play_Fallen_echo_main_music_theme
+        ObjectType: 3
+        guid: 0316ef8b813c0a40bc9c9bcc0d3b7642
+      Path: Events\Default Work Unit\Main menu events\Play_Fallen_echo_main_music_theme
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MainMenuAmbience
+      guid: 3f509da0e6880f46bfa0dbebf065cb1a
+      id: 2773040656
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Main menu events
+        ObjectType: 4
+        guid: 7e31da79eda07d4599190d554a979240
+      - ElementName: Play_MainMenuAmbience
+        ObjectType: 3
+        guid: 3f509da0e6880f46bfa0dbebf065cb1a
+      Path: Events\Default Work Unit\Main menu events\Play_MainMenuAmbience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Wind_001
+      guid: 5afa8727c9f14a4885f8f4eb1066a6a6
+      id: 3181097792
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Ambiences events
+        ObjectType: 4
+        guid: d998ab6d5feddf4c9be73d58bf20c716
+      - ElementName: Level 1 ambience
+        ObjectType: 4
+        guid: 4ad64c95021c2b4e8857ce7040f5a005
+      - ElementName: Play_Wind_001
+        ObjectType: 3
+        guid: 5afa8727c9f14a4885f8f4eb1066a6a6
+      Path: Events\Default Work Unit\Ambiences events\Level 1 ambience\Play_Wind_001
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Wind_002
+      guid: 3d293bf89ab78448a7412e0cf4a2b9cc
+      id: 3181097795
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Ambiences events
+        ObjectType: 4
+        guid: d998ab6d5feddf4c9be73d58bf20c716
+      - ElementName: Level 1 ambience
+        ObjectType: 4
+        guid: 4ad64c95021c2b4e8857ce7040f5a005
+      - ElementName: Play_Wind_002
+        ObjectType: 3
+        guid: 3d293bf89ab78448a7412e0cf4a2b9cc
+      Path: Events\Default Work Unit\Ambiences events\Level 1 ambience\Play_Wind_002
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player events
+      guid: 42a3f475020e704291ec9a164faa30be
+      id: 3721993445
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Player events
+        ObjectType: 4
+        guid: 42a3f475020e704291ec9a164faa30be
+      Path: Events\Default Work Unit\Player events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: player_damage
+      guid: 93a0525cd550a24da56868172becd00f
+      id: 2074073782
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Player events
+        ObjectType: 4
+        guid: 42a3f475020e704291ec9a164faa30be
+      - ElementName: player_damage
+        ObjectType: 3
+        guid: 93a0525cd550a24da56868172becd00f
+      Path: Events\Default Work Unit\Player events\player_damage
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: player_death
+      guid: 0776b954d5efc34db5e32272d3d80665
+      id: 3083087645
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Player events
+        ObjectType: 4
+        guid: 42a3f475020e704291ec9a164faa30be
+      - ElementName: player_death
+        ObjectType: 3
+        guid: 0776b954d5efc34db5e32272d3d80665
+      Path: Events\Default Work Unit\Player events\player_death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: player_health
+      guid: 1b6f65ddda43d34e8d5570dd2a19d79d
+      id: 215992295
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Player events
+        ObjectType: 4
+        guid: 42a3f475020e704291ec9a164faa30be
+      - ElementName: player_health
+        ObjectType: 3
+        guid: 1b6f65ddda43d34e8d5570dd2a19d79d
+      Path: Events\Default Work Unit\Player events\player_health
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: player_jump
+      guid: 02dd8fab73149747b3648080f4b075e7
+      id: 1305133589
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Player events
+        ObjectType: 4
+        guid: 42a3f475020e704291ec9a164faa30be
+      - ElementName: player_jump
+        ObjectType: 3
+        guid: 02dd8fab73149747b3648080f4b075e7
+      Path: Events\Default Work Unit\Player events\player_jump
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: player_levelup
+      guid: b50de3b144757f4ebcb9c054421cfb8d
+      id: 1793580242
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Player events
+        ObjectType: 4
+        guid: 42a3f475020e704291ec9a164faa30be
+      - ElementName: player_levelup
+        ObjectType: 3
+        guid: b50de3b144757f4ebcb9c054421cfb8d
+      Path: Events\Default Work Unit\Player events\player_levelup
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: player_levelupcooldown
+      guid: 7e0c2bf3703d8d45ba2919677032630e
+      id: 417787909
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Player events
+        ObjectType: 4
+        guid: 42a3f475020e704291ec9a164faa30be
+      - ElementName: player_levelupcooldown
+        ObjectType: 3
+        guid: 7e0c2bf3703d8d45ba2919677032630e
+      Path: Events\Default Work Unit\Player events\player_levelupcooldown
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: player_shoot
+      guid: f36833b227022445ae51dd6c965892a6
+      id: 4004702906
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Player events
+        ObjectType: 4
+        guid: 42a3f475020e704291ec9a164faa30be
+      - ElementName: player_shoot
+        ObjectType: 3
+        guid: f36833b227022445ae51dd6c965892a6
+      Path: Events\Default Work Unit\Player events\player_shoot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Spitter events
+      guid: 9594992e379e644caaa96359e4479243
+      id: 1044297303
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Enemy type events
+        ObjectType: 4
+        guid: ea3cc3a8dd39564e8258d387bd929a53
+      - ElementName: Spitter events
+        ObjectType: 4
+        guid: 9594992e379e644caaa96359e4479243
+      Path: Events\Default Work Unit\Enemy type events\Spitter events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: spitter_death
+      guid: 0eb3fd3088246b4aafb3471110d22493
+      id: 3336773763
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Enemy type events
+        ObjectType: 4
+        guid: ea3cc3a8dd39564e8258d387bd929a53
+      - ElementName: Spitter events
+        ObjectType: 4
+        guid: 9594992e379e644caaa96359e4479243
+      - ElementName: spitter_death
+        ObjectType: 3
+        guid: 0eb3fd3088246b4aafb3471110d22493
+      Path: Events\Default Work Unit\Enemy type events\Spitter events\spitter_death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: spitter_projectile_shot
+      guid: 56aa09c3913fbf4c891aea04dc2031de
+      id: 3827607873
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Enemy type events
+        ObjectType: 4
+        guid: ea3cc3a8dd39564e8258d387bd929a53
+      - ElementName: Spitter events
+        ObjectType: 4
+        guid: 9594992e379e644caaa96359e4479243
+      - ElementName: spitter_projectile_shot
+        ObjectType: 3
+        guid: 56aa09c3913fbf4c891aea04dc2031de
+      Path: Events\Default Work Unit\Enemy type events\Spitter events\spitter_projectile_shot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: spitter_receive_damage
+      guid: 8418e917d297cb4ba739c5adfc09f820
+      id: 1278452702
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Enemy type events
+        ObjectType: 4
+        guid: ea3cc3a8dd39564e8258d387bd929a53
+      - ElementName: Spitter events
+        ObjectType: 4
+        guid: 9594992e379e644caaa96359e4479243
+      - ElementName: spitter_receive_damage
+        ObjectType: 3
+        guid: 8418e917d297cb4ba739c5adfc09f820
+      Path: Events\Default Work Unit\Enemy type events\Spitter events\spitter_receive_damage
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: stop_main_theme
+      guid: ca00f505662f17489c6f9ed073f7e942
+      id: 2881402637
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd75506b24b5a049a8b8bec218bb8454
+      - ElementName: Main menu events
+        ObjectType: 4
+        guid: 7e31da79eda07d4599190d554a979240
+      - ElementName: stop_main_theme
+        ObjectType: 3
+        guid: ca00f505662f17489c6f9ed073f7e942
+      Path: Events\Default Work Unit\Main menu events\stop_main_theme
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: cf9a2c0e73556c4f9dc1a7e0c83339b2
+    ParentPath: Game Parameters\Default Work Unit
+    guid: cf9a2c0e73556c4f9dc1a7e0c83339b2
+    GuidInternal: 
+    m_lastTime: -8585212932232856149
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 159a3dab1d980a4baf5e1c32cd0a1409
+    ParentPath: States\Default Work Unit
+    guid: 159a3dab1d980a4baf5e1c32cd0a1409
+    GuidInternal: 
+    m_lastTime: -8585212932221744434
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8c2a0a1de1685c4e8e44aa95f7754134
+    ParentPath: Switches\Default Work Unit
+    guid: 8c2a0a1de1685c4e8e44aa95f7754134
+    GuidInternal: 
+    m_lastTime: -8585212932221734444
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: eb093c36660f91409b798ed80847b492
+    ParentPath: Triggers\Default Work Unit
+    guid: eb093c36660f91409b798ed80847b492
+    GuidInternal: 
+    m_lastTime: -8585212932221724449
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 080000000b000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

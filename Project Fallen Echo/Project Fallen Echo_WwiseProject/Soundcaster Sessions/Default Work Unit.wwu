@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C4F90E4A-3894-485A-900E-7E37332CC7DE}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{C4F90E4A-3894-485A-900E-7E37332CC7DE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Main menu session" ID="{89DA2392-F75D-4B41-898A-379A9BAB1FD6}" ShortID="104959860">
+					<ChildrenList>
+						<SoundcasterSession Name="Main menu" ID="{905D4182-8A1A-4C15-A49A-8FAA8485D2F3}">
+							<ModuleList>
+								<Module>
+									<ObjectRef Name="Play_MainMenuAmbience" ID="{A09D503F-88E6-460F-BFA0-DBEBF065CB1A}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="0" Y="0"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="Play_Fallen_echo_main_music_theme" ID="{8BEF1603-3C81-400A-BC9C-9BCC0D3B7642}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="1" Y="0"/>
+								</Module>
+							</ModuleList>
+							<RTPCValueList ShowAll="true"/>
+							<CurrentStateList ShowAll="true"/>
+							<CurrentSwitchList ShowAll="true"/>
+						</SoundcasterSession>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Level 1 session" ID="{80BDE0B2-8E81-4CB4-A3A9-63F013A459AD}" ShortID="1069937403">
+					<ChildrenList>
+						<SoundcasterSession Name="Level 1" ID="{66AA8A4B-1BC0-43B0-AD26-7A5DBA2391BD}">
+							<ModuleList>
+								<Module>
+									<ObjectRef Name="player_shoot" ID="{B23368F3-0227-4524-AE51-DD6C965892A6}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="0" Y="0"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="player_jump" ID="{AB8FDD02-1473-4797-B364-8080F4B075E7}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="0" Y="1"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="player_damage" ID="{5C52A093-50D5-4DA2-A568-68172BECD00F}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="0" Y="2"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="player_death" ID="{54B97607-EFD5-4DC3-B5E3-2272D3D80665}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="0" Y="3"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="player_levelupcooldown" ID="{F32B0C7E-3D70-458D-BA29-19677032630E}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="0" Y="5"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="player_health" ID="{DD656F1B-43DA-4ED3-8D55-70DD2A19D79D}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="0" Y="6"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="Play_Wind_001" ID="{2787FA5A-F1C9-484A-85F8-F4EB1066A6A6}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="1" Y="0"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="Play_Wind_002" ID="{F83B293D-B79A-4884-A741-2E0CF4A2B9CC}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="1" Y="1"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="ghoul_damage" ID="{1077BD03-7A70-4EFC-A57D-9C71F67E8F18}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="2" Y="0"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="ghoul_death" ID="{BD844C90-1B41-4F41-9520-C38A601C985D}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="2" Y="1"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="spitter_death" ID="{30FDB30E-2488-4A6B-AFB3-471110D22493}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="3" Y="0"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="spitter_projectile_shot" ID="{C309AA56-3F91-4CBF-891A-EA04DC2031DE}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="3" Y="1"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="spitter_receive_damage" ID="{17E91884-97D2-4BCB-A739-C5ADFC09F820}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="3" Y="2"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="ext_attack" ID="{04C30014-5F7B-4F8E-A88B-170414DE53FE}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="4" Y="0"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="ext_damage" ID="{C4E85014-3902-4243-8824-DC44BD30E427}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="4" Y="1"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="ext_death" ID="{A27830B2-96AB-486E-9B07-CFB79F364E05}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="4" Y="2"/>
+								</Module>
+								<Module>
+									<ObjectRef Name="ext_teleport" ID="{19DACF48-FD70-4539-A2CC-92D0DE6CB075}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}"/>
+									<Position X="4" Y="3"/>
+								</Module>
+							</ModuleList>
+							<RTPCValueList ShowAll="true"/>
+							<CurrentStateList ShowAll="true"/>
+							<CurrentSwitchList ShowAll="true"/>
+						</SoundcasterSession>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

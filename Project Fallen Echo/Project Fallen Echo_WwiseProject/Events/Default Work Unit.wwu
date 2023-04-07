@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Main menu events" ID="{79DA317E-A0ED-457D-9919-0D554A979240}" ShortID="136937060">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_MainMenuAmbience" ID="{A09D503F-88E6-460F-BFA0-DBEBF065CB1A}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{49F680F6-B38B-4704-A321-22ECFF6EC2D2}" ShortID="837777344">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainMenuAmbience" ID="{33D65813-272E-4CAA-BCCA-0F80BC406854}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Fallen_echo_main_music_theme" ID="{8BEF1603-3C81-400A-BC9C-9BCC0D3B7642}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{56182C16-5A4B-4D1F-BE14-6B8D32C72664}" ShortID="775848333">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fallen echo main music theme" ID="{B2C45B66-1287-40E8-B27E-0E50E9459D90}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="stop_main_theme" ID="{05F500CA-2F66-4817-9C6F-9ED073F7E942}">
+							<ChildrenList>
+								<Action Name="" ID="{E7828FAE-2FE9-47E5-9A6D-A29BB4FA098F}" ShortID="498062028">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fallen echo main music theme" ID="{B2C45B66-1287-40E8-B27E-0E50E9459D90}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player events" ID="{75F4A342-0E02-4270-91EC-9A164FAA30BE}" ShortID="416765340">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="player_shoot" ID="{B23368F3-0227-4524-AE51-DD6C965892A6}">
+							<ChildrenList>
+								<Action Name="" ID="{07E7AD83-AE93-45DF-81B9-0DC5ED7101E8}" ShortID="844706399">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Playershoot" ID="{F7C32C42-DABC-487B-9E98-CF75DEE208CC}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_jump" ID="{AB8FDD02-1473-4797-B364-8080F4B075E7}">
+							<ChildrenList>
+								<Action Name="" ID="{4E69FC14-7BF2-41A2-BBC4-87F2F51C6DC8}" ShortID="434284940">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerJump" ID="{56D4FD0B-9B91-46FF-83B9-5A5BC986E018}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_levelupcooldown" ID="{F32B0C7E-3D70-458D-BA29-19677032630E}">
+							<ChildrenList>
+								<Action Name="" ID="{8D541295-B3F2-4171-9772-3416256F2FD5}" ShortID="978681217">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerLevelupCooldown" ID="{432A803E-4D65-4D56-99B0-D54B1789BB66}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_health" ID="{DD656F1B-43DA-4ED3-8D55-70DD2A19D79D}">
+							<ChildrenList>
+								<Action Name="" ID="{C0EE483E-9696-44B4-8D82-5CB4E606F4A3}" ShortID="179534086">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerHealth" ID="{319C97F6-2CF9-41A1-BB7A-EF55F3643B9A}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_death" ID="{54B97607-EFD5-4DC3-B5E3-2272D3D80665}">
+							<ChildrenList>
+								<Action Name="" ID="{39BC54E1-3601-4286-A129-8D3BBFF28C42}" ShortID="161717975">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerDeath" ID="{91CF3337-B28D-431A-8579-DCABC38179C1}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_damage" ID="{5C52A093-50D5-4DA2-A568-68172BECD00F}">
+							<ChildrenList>
+								<Action Name="" ID="{7FC28894-C5F9-47E8-8B4A-B7A2024C7069}" ShortID="1052150593">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="playerdamageContainer" ID="{E6F0F671-01FB-41F4-BAD4-23A736A6EB9A}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_levelup" ID="{B1E30DB5-7544-4E7F-BCB9-C054421CFB8D}">
+							<ChildrenList>
+								<Action Name="" ID="{3C724F40-AF69-4F55-99BF-8718FB744A3A}" ShortID="180073222">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerLevelup" ID="{6330C04D-A92B-428E-82ED-F0FE6A1D73D2}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambiences events" ID="{6DAB98D9-ED5F-4CDF-9BE7-3D58BF20C716}" ShortID="288514269">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Level 1 ambience" ID="{954CD64A-1C02-4E2B-8857-CE7040F5A005}" ShortID="871128094">
+							<ChildrenList>
+								<Event Name="Play_Wind_002" ID="{F83B293D-B79A-4884-A741-2E0CF4A2B9CC}">
+									<ChildrenList>
+										<Action Name="" ID="{F7BC1F3C-1C79-4CB0-B3BC-286B54B5BA9D}" ShortID="465841037">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wind 002" ID="{EB1826B8-25F0-4AF7-85B8-8B909BBD1BAA}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Wind_001" ID="{2787FA5A-F1C9-484A-85F8-F4EB1066A6A6}">
+									<ChildrenList>
+										<Action Name="" ID="{E0A5122F-D04F-4C2A-8CF5-8C441F657C95}" ShortID="749424322">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wind 001" ID="{CF3E0F12-00EF-45A5-98F5-31009443F474}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemy type events" ID="{A8C33CEA-39DD-4E56-8258-D387BD929A53}" ShortID="624805313">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Ghoul events" ID="{693A4606-A8A6-4768-B49E-2494919D97B0}" ShortID="825300745">
+							<ChildrenList>
+								<Event Name="ghoul_damage" ID="{1077BD03-7A70-4EFC-A57D-9C71F67E8F18}">
+									<ChildrenList>
+										<Action Name="" ID="{E336846A-93E2-4AAD-8D8F-403367060548}" ShortID="878166537">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="receive damage" ID="{8243CCA9-D4BF-448E-B368-4C43BE65C89A}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ghoul_death" ID="{BD844C90-1B41-4F41-9520-C38A601C985D}">
+									<ChildrenList>
+										<Action Name="" ID="{5C2E2E69-77F8-4000-8CF2-9CD3E9AFF43D}" ShortID="527408913">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Death" ID="{227DE427-9034-4F75-B012-8158B58D4066}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Spitter events" ID="{2E999495-9E37-4C64-AAA9-6359E4479243}" ShortID="677645018">
+							<ChildrenList>
+								<Event Name="spitter_receive_damage" ID="{17E91884-97D2-4BCB-A739-C5ADFC09F820}">
+									<ChildrenList>
+										<Action Name="" ID="{842B0783-C710-414F-B33F-3E277B4C6290}" ShortID="889423469">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="spitter receive damage" ID="{A9EEDA1F-8CAD-443B-BF4F-44D320E85CF7}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="spitter_death" ID="{30FDB30E-2488-4A6B-AFB3-471110D22493}">
+									<ChildrenList>
+										<Action Name="" ID="{37ADEBD4-E3DD-4035-9F15-EF3E6B77ABEA}" ShortID="897677901">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="spitter death" ID="{C8EBFBE9-7401-49E3-BF23-D9466CA19AAC}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="spitter_projectile_shot" ID="{C309AA56-3F91-4CBF-891A-EA04DC2031DE}">
+									<ChildrenList>
+										<Action Name="" ID="{9FFF3270-17BA-40C6-83B4-30DFB9C6ECD3}" ShortID="53753002">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="spitter projectile shot" ID="{A88AA6E6-4E54-4651-8E81-E205A5F4950C}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Exterminator events" ID="{CC7E4C2A-463C-4124-9CDE-5B065407F93F}" ShortID="117025797">
+							<ChildrenList>
+								<Event Name="ext_teleport" ID="{19DACF48-FD70-4539-A2CC-92D0DE6CB075}">
+									<ChildrenList>
+										<Action Name="" ID="{612E846A-73EB-4087-A56A-C06AA8DA8F04}" ShortID="538159758">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ext teleport" ID="{561F753F-7F53-453F-9847-3D8AB60F9C14}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ext_damage" ID="{C4E85014-3902-4243-8824-DC44BD30E427}">
+									<ChildrenList>
+										<Action Name="" ID="{16C7839B-9316-4A0D-8F4D-9AEB792752B2}" ShortID="271731055">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ext damage" ID="{54B3B8EB-89F9-431D-A483-D9127A36AF1B}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ext_attack" ID="{04C30014-5F7B-4F8E-A88B-170414DE53FE}">
+									<ChildrenList>
+										<Action Name="" ID="{EA9245DE-03B8-42B2-8C64-EBE56E7C9ADD}" ShortID="360783610">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ext attack" ID="{FC297173-0095-4AD9-9011-22B8345F6BB0}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ext_death" ID="{A27830B2-96AB-486E-9B07-CFB79F364E05}">
+									<ChildrenList>
+										<Action Name="" ID="{4B89C996-B8B9-4B10-847B-15850D9513CE}" ShortID="416859327">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ext death" ID="{1323F467-D5C6-484C-9C59-54C3A42BEEDE}" WorkUnitID="{274951DE-E15E-461F-ADCA-2B0E6068DD16}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

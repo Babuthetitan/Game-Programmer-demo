@@ -1,0 +1,50 @@
+Event	ID	Name			Wwise Object Path	Notes
+	215992295	player_health			\Default Work Unit\Player events\player_health	
+	417787909	player_levelupcooldown			\Default Work Unit\Player events\player_levelupcooldown	
+	1278452702	spitter_receive_damage			\Default Work Unit\Enemy type events\Spitter events\spitter_receive_damage	
+	1305133589	player_jump			\Default Work Unit\Player events\player_jump	
+	1629797184	ext_teleport			\Default Work Unit\Enemy type events\Exterminator events\ext_teleport	
+	1782151754	Play_Fallen_echo_main_music_theme			\Default Work Unit\Main menu events\Play_Fallen_echo_main_music_theme	
+	1793580242	player_levelup			\Default Work Unit\Player events\player_levelup	
+	2074073782	player_damage			\Default Work Unit\Player events\player_damage	
+	2635435004	ghoul_damage			\Default Work Unit\Enemy type events\Ghoul events\ghoul_damage	
+	2773040656	Play_MainMenuAmbience			\Default Work Unit\Main menu events\Play_MainMenuAmbience	
+	2818127829	ext_attack			\Default Work Unit\Enemy type events\Exterminator events\ext_attack	
+	2881402637	stop_main_theme			\Default Work Unit\Main menu events\stop_main_theme	
+	3083087645	player_death			\Default Work Unit\Player events\player_death	
+	3181097792	Play_Wind_001			\Default Work Unit\Ambiences events\Level 1 ambience\Play_Wind_001	
+	3181097795	Play_Wind_002			\Default Work Unit\Ambiences events\Level 1 ambience\Play_Wind_002	
+	3336773763	spitter_death			\Default Work Unit\Enemy type events\Spitter events\spitter_death	
+	3722504395	ghoul_death			\Default Work Unit\Enemy type events\Ghoul events\ghoul_death	
+	3767764329	ext_death			\Default Work Unit\Enemy type events\Exterminator events\ext_death	
+	3827607873	spitter_projectile_shot			\Default Work Unit\Enemy type events\Spitter events\spitter_projectile_shot	
+	4004702906	player_shoot			\Default Work Unit\Player events\player_shoot	
+	4113054722	ext_damage			\Default Work Unit\Enemy type events\Exterminator events\ext_damage	
+
+Effect plug-ins	ID	Name	Type				Notes
+	506891147	Plate_Small	Wwise RoomVerb			
+	535667444	Bathroom1	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	89198019	PlayerHealth	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\PlayerHealth_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHealth		608488
+	143782309	receive damage	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\receive damage_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy types\Ghoul\receive damage		43240
+	176368334	PlayerLevelupCooldown	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\PlayerLevelupCooldown_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerLevelupCooldown		101080
+	253533295	Playershoot	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\Playershoot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Playershoot		67444
+	280624956	MainMenuAmbience	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\MainMenuAmbience_86591CB4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main menu\MainMenuAmbience		10056456
+	299771852	ext damage	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\ext damage_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy types\Exterminator\ext damage		45320
+	384085686	PlayerLevelup	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\PlayerLevelup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerLevelup		229680
+	398103362	PlayerJump	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\PlayerJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerJump		186036
+	478341993	spitter projectile shot	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\spitter projectile shot_96B2CE20.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy types\Spitter\spitter projectile shot		57784
+	508404212	spitter receive damage	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\spitter receive damage_BC733870.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy types\Spitter\spitter receive damage		37324
+	537803830	PlayerDamage1	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\PlayerDamage1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\playerdamageContainer\PlayerDamage1		153612
+	538058748	ext teleport	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\ext teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy types\Exterminator\ext teleport		268172
+	549967930	Death	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\Death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy types\Ghoul\Death		123232
+	636652554	ext death	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\ext death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy types\Exterminator\ext death		290476
+	658485384	Wind 002	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\Wind 002_05BA075B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Level 1 ambience\Wind 002		2461624
+	777583407	PlayerDamage2	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\PlayerDamage2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\playerdamageContainer\PlayerDamage2		153612
+	917630044	ext attack	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\ext attack_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy types\Exterminator\ext attack		372512
+	1047664354	Fallen echo main music theme	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\Fallen echo main music theme_407A6822.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main menu\Fallen echo main music theme		19230436
+	1060386590	Wind 001	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\Wind 001_7D6739D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Level 1 ambience\Wind 001		2483560
+	1065921458	spitter death	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\spitter death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy types\Spitter\spitter death		100032
+	1068730926	PlayerDeath	C:\Users\User-1\Documents\GitHub\Technical-audio-demo-\Project Fallen Echo\Project Fallen Echo_WwiseProject\.cache\Windows\SFX\PlayerDeath_30D94A25.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerDeath		1412912
+

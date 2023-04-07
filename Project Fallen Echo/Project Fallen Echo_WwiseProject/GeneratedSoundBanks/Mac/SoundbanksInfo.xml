@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BD070F61-0269-9C55-D591-DA3687A138C7}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="2266108221" Name="AAA Main bus"/>
+				<Bus Id="3127962312" Name="Music bus"/>
+				<Bus Id="3960432351" Name="Scene ambience bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1004B8BA-1611-CBA8-1017-36308B0B2EA5}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="89198019" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerHealth.wav</ShortName>
+					<CachePath>SFX/PlayerHealth_10C4C929.wem</CachePath>
+				</File>
+				<File Id="143782309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>receive damage.wav</ShortName>
+					<CachePath>SFX/receive damage_10C4C929.wem</CachePath>
+				</File>
+				<File Id="176368334" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerLevelupCooldown.wav</ShortName>
+					<CachePath>SFX/PlayerLevelupCooldown_10C4C929.wem</CachePath>
+				</File>
+				<File Id="253533295" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Playershoot.wav</ShortName>
+					<CachePath>SFX/Playershoot_10C4C929.wem</CachePath>
+				</File>
+				<File Id="280624956" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MainMenuAmbience.wav</ShortName>
+					<CachePath>SFX/MainMenuAmbience_86591CB4.wem</CachePath>
+				</File>
+				<File Id="299771852" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ext damage.wav</ShortName>
+					<CachePath>SFX/ext damage_10C4C929.wem</CachePath>
+				</File>
+				<File Id="384085686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerLevelup.wav</ShortName>
+					<CachePath>SFX/PlayerLevelup_10C4C929.wem</CachePath>
+				</File>
+				<File Id="398103362" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerJump.wav</ShortName>
+					<CachePath>SFX/PlayerJump_10C4C929.wem</CachePath>
+				</File>
+				<File Id="478341993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spitter projectile shot.wav</ShortName>
+					<CachePath>SFX/spitter projectile shot_96B2CE20.wem</CachePath>
+				</File>
+				<File Id="508404212" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spitter receive damage.wav</ShortName>
+					<CachePath>SFX/spitter receive damage_BC733870.wem</CachePath>
+				</File>
+				<File Id="537803830" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerDamage1.wav</ShortName>
+					<CachePath>SFX/PlayerDamage1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="538058748" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ext teleport.wav</ShortName>
+					<CachePath>SFX/ext teleport_10C4C929.wem</CachePath>
+				</File>
+				<File Id="549967930" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Death.wav</ShortName>
+					<CachePath>SFX/Death_10C4C929.wem</CachePath>
+				</File>
+				<File Id="636652554" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ext death.wav</ShortName>
+					<CachePath>SFX/ext death_10C4C929.wem</CachePath>
+				</File>
+				<File Id="658485384" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind 002.wav</ShortName>
+					<CachePath>SFX/Wind 002_05BA075B.wem</CachePath>
+				</File>
+				<File Id="777583407" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerDamage2.wav</ShortName>
+					<CachePath>SFX/PlayerDamage2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="917630044" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ext attack.wav</ShortName>
+					<CachePath>SFX/ext attack_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1047664354" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fallen echo main music theme.wav</ShortName>
+					<CachePath>SFX/Fallen echo main music theme_407A6822.wem</CachePath>
+				</File>
+				<File Id="1060386590" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind 001.wav</ShortName>
+					<CachePath>SFX/Wind 001_7D6739D9.wem</CachePath>
+				</File>
+				<File Id="1065921458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spitter death.wav</ShortName>
+					<CachePath>SFX/spitter death_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1068730926" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerDeath.wav</ShortName>
+					<CachePath>SFX/PlayerDeath_30D94A25.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="506891147" Name="Plate_Small" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="535667444" Name="Bathroom1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="2818127829" Name="ext_attack" DurationType="OneShot" DurationMin="1.9396666" DurationMax="1.9396666">
+					<MediaRefs>
+						<MediaRef Id="917630044"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4113054722" Name="ext_damage" DurationType="OneShot" DurationMin="0.23554167" DurationMax="0.23554167">
+					<MediaRefs>
+						<MediaRef Id="299771852"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3767764329" Name="ext_death" DurationType="OneShot" DurationMin="1.5123959" DurationMax="1.5123959">
+					<MediaRefs>
+						<MediaRef Id="636652554"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1629797184" Name="ext_teleport" DurationType="OneShot" DurationMin="1.3962291" DurationMax="1.3962291">
+					<MediaRefs>
+						<MediaRef Id="538058748"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="535667444"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2635435004" Name="ghoul_damage" DurationType="OneShot" DurationMin="0.24458049" DurationMax="0.24458049">
+					<MediaRefs>
+						<MediaRef Id="143782309"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3722504395" Name="ghoul_death" DurationType="OneShot" DurationMin="0.6980499" DurationMax="0.6980499">
+					<MediaRefs>
+						<MediaRef Id="549967930"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1782151754" Name="Play_Fallen_echo_main_music_theme" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1047664354"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2773040656" Name="Play_MainMenuAmbience" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="280624956"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3181097792" Name="Play_Wind_001" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1060386590"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3181097795" Name="Play_Wind_002" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="658485384"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2074073782" Name="player_damage" DurationType="OneShot" DurationMin="0.8702721" DurationMax="0.8702721">
+					<MediaRefs>
+						<MediaRef Id="537803830"/>
+						<MediaRef Id="777583407"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3083087645" Name="player_death" DurationType="OneShot" DurationMin="8.009161" DurationMax="8.009161">
+					<MediaRefs>
+						<MediaRef Id="1068730926"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="215992295" Name="player_health" DurationType="OneShot" DurationMin="3.4489343" DurationMax="3.4489343">
+					<MediaRefs>
+						<MediaRef Id="89198019"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1305133589" Name="player_jump" DurationType="OneShot" DurationMin="0.9684375" DurationMax="0.9684375">
+					<MediaRefs>
+						<MediaRef Id="398103362"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1793580242" Name="player_levelup" DurationType="OneShot" DurationMin="1.3014966" DurationMax="1.3014966">
+					<MediaRefs>
+						<MediaRef Id="384085686"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="417787909" Name="player_levelupcooldown" DurationType="OneShot" DurationMin="0.5724717" DurationMax="0.5724717">
+					<MediaRefs>
+						<MediaRef Id="176368334"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4004702906" Name="player_shoot" DurationType="OneShot" DurationMin="0.38179138" DurationMax="0.38179138">
+					<MediaRefs>
+						<MediaRef Id="253533295"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3336773763" Name="spitter_death" DurationType="OneShot" DurationMin="0.5665306" DurationMax="0.5665306">
+					<MediaRefs>
+						<MediaRef Id="1065921458"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3827607873" Name="spitter_projectile_shot" DurationType="OneShot" DurationMin="0.31771928" DurationMax="0.31771928">
+					<MediaRefs>
+						<MediaRef Id="478341993"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="506891147"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="1278452702" Name="spitter_receive_damage" DurationType="OneShot" DurationMin="0.23281269" DurationMax="0.23281269">
+					<MediaRefs>
+						<MediaRef Id="508404212"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2881402637" Name="stop_main_theme" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6892C530-9D82-01D9-6870-04E9770202A0}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,9 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	2266108221	AAA Main bus			\Default Work Unit\AAA Main bus	
+	3127962312	Music bus			\Default Work Unit\Music bus	
+	3960432351	Scene ambience bus			\Default Work Unit\Scene ambience bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

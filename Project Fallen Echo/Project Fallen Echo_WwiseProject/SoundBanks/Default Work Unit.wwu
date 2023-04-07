@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{630AD19F-2808-4A7D-A090-EB9C2CF2FAB2}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{630AD19F-2808-4A7D-A090-EB9C2CF2FAB2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{D518AE1B-4636-4C91-989A-9A4700280602}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Player events" ID="{75F4A342-0E02-4270-91EC-9A164FAA30BE}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Main menu events" ID="{79DA317E-A0ED-457D-9919-0D554A979240}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambiences events" ID="{6DAB98D9-ED5F-4CDF-9BE7-3D58BF20C716}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy type events" ID="{A8C33CEA-39DD-4E56-8258-D387BD929A53}" WorkUnitID="{6B5075CD-B524-49A0-A8B8-BEC218BB8454}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

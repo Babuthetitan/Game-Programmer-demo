@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{75F8E147-36D0-49D8-B48A-9B5FB5827D95}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{75F8E147-36D0-49D8-B48A-9B5FB5827D95}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="AAA Main bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{0B3CF697-DBB0-4CC3-A0A5-CCA34731035A}" WorkUnitID="{1BF03021-ADEB-4F95-B794-330FFC13FD98}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Scene ambience bus" ID="{067CBF3B-336A-46C6-8E43-2FAE9D6E453D}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{0B3CF697-DBB0-4CC3-A0A5-CCA34731035A}" WorkUnitID="{1BF03021-ADEB-4F95-B794-330FFC13FD98}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Music bus" ID="{FB9DB262-08F9-4D5A-B058-1F1F69C4FA76}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{0B3CF697-DBB0-4CC3-A0A5-CCA34731035A}" WorkUnitID="{1BF03021-ADEB-4F95-B794-330FFC13FD98}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
